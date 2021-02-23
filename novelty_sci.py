@@ -31,6 +31,7 @@ def novel(mytxt):
         nov_list.append([q, np.percentile(dist_list, q)])
 
     return nov_list
+    
 
 def main():  
     # Read input file
@@ -69,8 +70,11 @@ q_list = [100, 99, 95, 90, 80, 50]
 # Set file names
 # Input file includes 3 columns:
 # (1) ID of document, (2) ID of cited reference by the document, (3) text information
+# Note: Each document must have at least two cited references to compute novelty. Do not include a document with only one cited reference.
+
 # Output file includes 3 columns:
 # (1) ID of document, (2) value of p (percentile), (3) computed novelty score
+
 in_file = "input.csv"
 out_file = "output.csv"
 
