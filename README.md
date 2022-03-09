@@ -2,7 +2,14 @@
 
 A repository is for computing the novelty indicator of scientific publications. 
 
+# Code and sample data 
+It contains:
+- **Code**: [novelty_sci.py](https://github.com/DeyunYinWIPO/Novelty/blob/main/novelty_sci.py) 
+- **Sample input data**: [input_sample.csv](https://github.com/DeyunYinWIPO/Novelty/tree/main/data)
+- **Algorithm**: ![Scheme](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0254034)
 
+
+## Paper 
 For further details, please refer to the following paper:  
 
 - **Title**: [Measuring novelty in science with word embedding](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0254034)
