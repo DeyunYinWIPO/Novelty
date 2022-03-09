@@ -6,7 +6,10 @@ A repository is for computing the novelty indicator of scientific publications.
 ## Code and sample data 
 It contains:
 - **Code**: [novelty](https://github.com/DeyunYinWIPO/Novelty/blob/main/novelty_sci.py) 
-- **Sample input data**: [input_sample](https://github.com/DeyunYinWIPO/Novelty/tree/main/data)
+- **Sample input data**: [input_sample](https://github.com/DeyunYinWIPO/Novelty/tree/main/data) It contains three columns 
+    - citing_id: ID of the citing paper
+    - cited_id: ID of cited papers 
+    - sci_text: title and abstract 
 
 
 
